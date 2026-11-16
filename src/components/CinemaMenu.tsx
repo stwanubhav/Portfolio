@@ -37,7 +37,6 @@ export const CinemaMenu: React.FC<CinemaMenuProps> = ({ open, onClose, onNavigat
         <aside className="cx-menu-aside">
           <div className="cx-menu-brand">
             <span className="cx-menu-brand-mark">STW</span>
-            <span>INDEPENDENT DEVELOPER<br />PORTFOLIO / 2025</span>
           </div>
           <div className="cx-menu-orbit" aria-hidden="true">
             <span />
@@ -45,12 +44,11 @@ export const CinemaMenu: React.FC<CinemaMenuProps> = ({ open, onClose, onNavigat
             <b />
           </div>
           <p className="cx-menu-aside-note">A collection of systems, experiments, and selected work.</p>
-          <p className="cx-menu-aside-index">NAVIGATION INDEX <span>08 SECTIONS</span></p>
         </aside>
 
         <div className="cx-menu-main">
           <div className="cx-menu-topline">
-            <span>MENU <i /> DIGITAL ARCHIVE</span>
+            <span>MENU</span>
             <button type="button" className="cx-menu-close" onClick={onClose} aria-label="Close menu">
               <span>CLOSE</span><b>×</b>
             </button>
