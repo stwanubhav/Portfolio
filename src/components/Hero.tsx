@@ -1,5 +1,5 @@
 import React from 'react';
-import { Terminal, ArrowRight, Github, MapPin, Sparkles, Code2 } from 'lucide-react';
+import { ArrowRight, Github, MapPin, Sparkles, Code2, Link2 } from 'lucide-react';
 import { PORTFOLIO_DATA } from '../data/portfolioData';
 import { Profile3D } from './Profile3D';
 
@@ -41,11 +41,13 @@ export const Hero: React.FC = () => {
               </a>
 
               <a
-                href="#terminal"
-                className="flex items-center justify-center gap-2 px-5 py-3 text-sm font-mono text-slate-300 bg-[#0e111a] hover:bg-[#161a29] border border-white/10 hover:border-purple-500/40 rounded-xl transition-all"
+                href="https://stwlinkconnect.kdns.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 px-5 py-3 text-sm font-mono text-slate-300 bg-[#0e111a] hover:bg-[#161a29] border border-white/10 hover:border-cyan-500/40 rounded-xl transition-all"
               >
-                <Terminal className="w-4 h-4 text-purple-400" />
-                <span>Run Interactive CLI</span>
+                <Link2 className="w-4 h-4 text-cyan-400" />
+                <span>LinkConnect</span>
               </a>
 
               <a

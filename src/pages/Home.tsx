@@ -9,7 +9,7 @@ import { ProjectCanvasScreen } from '../components/ProjectCanvasScreen';
 import { Profile3D } from '../components/Profile3D';
 import {
   Award,
-  Terminal,
+  Link2,
   ArrowRight,
   Github,
   MapPin,
@@ -162,14 +162,15 @@ export const Home: React.FC<HomeProps> = ({ onReboot, initialContactOpen = false
                   &gt; ALL 14 PROJECTS
                 </Link>
 
-                <button
-                  type="button"
-                  onClick={() => scrollToSection('about')}
+                <a
+                  href="https://stwlinkconnect.kdns.fr"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="px-4 py-2.5 rounded bg-slate-900 hover:bg-slate-800 text-slate-300 border border-white/10 transition-colors flex items-center gap-1.5"
                 >
-                  <Terminal className="w-3.5 h-3.5 text-cyan-400" />
-                  <span>CLI</span>
-                </button>
+                  <Link2 className="w-3.5 h-3.5 text-cyan-400" />
+                  <span>LinkConnect</span>
+                </a>
               </div>
 
               {/* Meta details */}
