@@ -117,9 +117,7 @@ export const ContactSection: React.FC = () => {
                   <span>github.com/stwanubhav</span>
                 </a>
                 <div className="flex items-center gap-3 text-xs text-slate-400 pt-0.5">
-                  <a href="https://lotusstudy.ct.ws" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-300 underline">lotusstudy.ct.ws</a>
-                  <span>·</span>
-                  <a href="https://www.freelearnx.ct.ws" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-300 underline">freelearnx.ct.ws</a>
+                  <a href="https://stwlinkconnect.kdns.fr" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-300 underline">stwlinkconnect.kdns.fr</a>
                 </div>
               </div>
             </div>

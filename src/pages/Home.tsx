@@ -645,13 +645,8 @@ export const Home: React.FC<HomeProps> = ({ onReboot, initialContactOpen = false
                 </a>
               </li>
               <li>
-                <a href="https://lotusstudy.ct.ws" target="_blank" rel="noreferrer" className="hover:text-purple-400">
-                  &gt; LOTUS STUDY
-                </a>
-              </li>
-              <li>
-                <a href="https://www.freelearnx.ct.ws" target="_blank" rel="noreferrer" className="hover:text-purple-400">
-                  &gt; FREELEARNX
+                <a href="https://stwlinkconnect.kdns.fr" target="_blank" rel="noreferrer" className="hover:text-purple-400">
+                  &gt; LINKCONNECT
                 </a>
               </li>
             </ul>

@@ -83,8 +83,7 @@ export const CinemaMenu: React.FC<CinemaMenuProps> = ({ open, onClose, onNavigat
             <p><i /> SYSTEM ONLINE <span>·</span> AVAILABLE FOR ROLES</p>
             <div>
               <a href={PORTFOLIO_DATA.person.github} target="_blank" rel="noreferrer">GITHUB ↗</a>
-              <a href="https://lotusstudy.ct.ws" target="_blank" rel="noreferrer">LOTUS STUDY ↗</a>
-              <a href="https://www.freelearnx.ct.ws" target="_blank" rel="noreferrer">FREELEARNX ↗</a>
+              <a href="https://stwlinkconnect.kdns.fr" target="_blank" rel="noreferrer">LINKCONNECT ↗</a>
             </div>
           </div>
         </div>

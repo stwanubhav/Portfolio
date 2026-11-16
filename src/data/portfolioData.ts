@@ -50,8 +50,7 @@ export const PORTFOLIO_DATA = {
     email: "stwanubhavbusiness@gmail.com",
     github: "https://github.com/stwanubhav",
     websites: [
-      { name: "FreeLearnX", url: "https://www.freelearnx.ct.ws" },
-      { name: "Lotus Study", url: "https://lotusstudy.ct.ws" }
+      { name: "LinkConnect", url: "https://stwlinkconnect.kdns.fr" }
     ],
     spokenLanguages: ["English", "Hindi"],
     softSkills: ["Teamwork", "Time Management", "Critical Thinking"],
